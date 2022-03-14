@@ -10,7 +10,8 @@ public class Scoring {
 */
         ben.print();
 
-        Postgraduate beatrice = new Postgraduate("Beatrice");
+        Postgraduate beatrice = new Postgraduate("Beatrice", 45, 97, 81);
         beatrice.print();
+        beatrice.println();
     }
 }
