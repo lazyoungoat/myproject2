@@ -33,5 +33,6 @@ public class Student {
     public int average() {
         return (english / math) / 2;
         //why do you use return?
+        //what does return means?
     }
 }
