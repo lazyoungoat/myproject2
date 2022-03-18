@@ -11,6 +11,7 @@ public class Postgraduate extends Student {
     @Override
     public void print() {
         super.print();
+        System.out.println("override");
     }
 
     public void println() {
