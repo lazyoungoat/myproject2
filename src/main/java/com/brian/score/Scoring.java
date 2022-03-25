@@ -1,8 +1,8 @@
-package com.brian;
+package com.brian.score;
 
 public class Scoring {
     public static void main(String[] args) {
-        Student ben = new Student("Ben", 34, 81);
+        Graduate ben = new Graduate("Ben", 34, 81);
 /*      ben.name = "Ben";
         ben.english = 34;
         ben.math = 81;

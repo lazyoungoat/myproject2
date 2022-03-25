@@ -1,4 +1,7 @@
-package com.brian;
+package com.brian.sales;
+
+import com.brian.sales.Customer;
+import com.brian.sales.SilverCustomer;
 
 public class Shop {
     public static void main(String[] args) {

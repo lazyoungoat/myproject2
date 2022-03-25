@@ -1,4 +1,4 @@
-package com.brian;
+package com.brian.sales;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -13,6 +13,7 @@ public class Customer {
         this.number = number;
         this.moneySpent = moneySpent;
     }
+
 
 
     public void print() {

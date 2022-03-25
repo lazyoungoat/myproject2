@@ -1,4 +1,4 @@
-package com.brian;
+package com.brian.score;
 
 public class ScoringNG {
     public static void main(String[] args) {

@@ -1,15 +1,15 @@
-package com.brian;
+package com.brian.score;
 
-public class Student {
+public class Graduate {
     String name;
     int math;
     int english;
 
-    public Student(String name) {//Constructor
+    public Graduate(String name) {//Constructor
         this.name = name;
     }
 
-    public Student(String name, int english, int math) {//Constructor
+    public Graduate(String name, int english, int math) {//Constructor
         this(name);//呼叫public class內constructor的code。要放在constructor的第一行
         //重複利用this.name = name;
 //        this.name = name;
@@ -17,7 +17,7 @@ public class Student {
         this.math = math;
     }
 
-    public Student() {//Default constructor
+    public Graduate() {//Default constructor
 
     }
 

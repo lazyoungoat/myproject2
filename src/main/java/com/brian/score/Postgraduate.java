@@ -1,6 +1,6 @@
-package com.brian;
+package com.brian.score;
 
-public class Postgraduate extends Student {
+public class Postgraduate extends Graduate {
     int thesis;
 
     public Postgraduate(String name, int english, int math, int thesis) {
