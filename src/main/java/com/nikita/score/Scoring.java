@@ -1,5 +1,8 @@
 package com.nikita.score;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Scoring {
     public static void main(String[] args) {
         Graduate ben = new Graduate("Ben", 34, 81);
@@ -12,6 +15,18 @@ public class Scoring {
 
         Postgraduate beatrice = new Postgraduate("Beatrice", 45, 97, 81);
         beatrice.print();
-        beatrice.println();
+
+
+
+        List<Graduate> students = new ArrayList<>();
+        students.add(new Graduate("Ben", 34, 81));
+        students.add(new Postgraduate("Beatrice", 45, 97, 81));
+
+        for (Graduate stu:
+             students) {
+            stu.print();
+        }
+
+
     }
 }

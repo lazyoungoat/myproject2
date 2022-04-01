@@ -10,11 +10,6 @@ public class Postgraduate extends Graduate {
 
     @Override
     public void print() {
-        super.print();
-        System.out.println("override");
-    }
-
-    public void println() {
         System.out.println(name + "\t" + english + "\t" + math + '\t' + thesis);
     }
 }
