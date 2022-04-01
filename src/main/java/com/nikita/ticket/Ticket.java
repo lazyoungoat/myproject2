@@ -1,4 +1,4 @@
-package com.brian.rail;
+package com.nikita.ticket;
 
 public class Ticket {
 

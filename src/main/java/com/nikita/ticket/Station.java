@@ -1,4 +1,4 @@
-package com.brian.rail;
+package com.nikita.ticket;
 
 public class Station {
     public final static Station TAIPEI_CITY = new Station(1000, "Taipei");

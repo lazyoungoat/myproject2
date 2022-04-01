@@ -1,8 +1,8 @@
-package com.brian.rail;
+package com.nikita.ticket;
 
 import java.util.Scanner;
 
-public class Testing {
+public class Tester {
     public static void main(String[] args) {
         Ticket ticket = new Ticket(Station.KAOHSIUNG_CITY, Station.TAICHUNG_CITY);
         System.out.println(ticket.destination.name);

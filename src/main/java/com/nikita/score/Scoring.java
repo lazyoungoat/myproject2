@@ -1,4 +1,4 @@
-package com.brian.score;
+package com.nikita.score;
 
 public class Scoring {
     public static void main(String[] args) {

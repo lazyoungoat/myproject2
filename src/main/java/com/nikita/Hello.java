@@ -1,4 +1,4 @@
-package com.brian;
+package com.nikita;
 
 public class Hello {
     public static void main(String[] args) {

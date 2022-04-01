@@ -1,4 +1,4 @@
-package com.brian.score;
+package com.nikita.score;
 
 public class Postgraduate extends Graduate {
     int thesis;
