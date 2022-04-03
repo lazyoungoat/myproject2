@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Tester {
     public static void main(String[] args) {
         Ticket ticket = new Ticket(Station.KAOHSIUNG_CITY, Station.TAICHUNG_CITY);
-        System.out.println(ticket.destination.name);
+        System.out.println(ticket.arrival.name);
         System.out.println(ticket.start.id);
 
 
