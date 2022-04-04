@@ -9,10 +9,33 @@ public class Tester {
         System.out.println(ticket.start.id);
 
 
-        System.out.println("Please choose a starting station:(Taipei:1, Taichung:2, Kaohsiung:3)");
-        Scanner scan_start = new Scanner(System.in);
-        String str_start = scan_start.next();
-        int start = Integer.parseInt(str_start);
+        boolean choose = true;
+
+
+        while (choose){
+            System.out.println("Please choose a starting station:(Taipei:1, Taichung:2, Kaohsiung:3)");
+            Scanner scan_start = new Scanner(System.in);
+            String str_start = scan_start.next();
+            int start = Integer.parseInt(str_start);
+
+            switch (start) {
+                case 1:
+                    System.out.println("Taipei");
+                    break;
+                case 2:
+                    System.out.println("Taichung");
+                    break;
+                case 3:
+                    System.out.println("Kaohsiung");
+                    break;
+                default:
+                    System.out.println("Invalid");
+
+            }choose = false;
+            break;
+        }
+
+
 
         System.out.println("Please choose a ending station:(Taipei:1, Taichung:2, Kaohsiung:3)");
         Scanner scan_end = new Scanner(System.in);
