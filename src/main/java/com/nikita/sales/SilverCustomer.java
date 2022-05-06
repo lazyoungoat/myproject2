@@ -16,7 +16,7 @@ public class SilverCustomer extends Customer {
     public void print() {
 
 
-        System.out.println(number + "\t" + spent + "\t" + (spent-getDiscount()) + "\t" + rebate());
+        System.out.println(number + "\t" + spent + "\t" + (spent-getDiscount()) + "\t(" + rebate() + ")");
 
     }
 

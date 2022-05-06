@@ -18,12 +18,4 @@ public class GoldenCustomer extends SilverCustomer{
 
 
 
-
-
-
-
-
-
-
-
 }

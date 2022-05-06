@@ -19,10 +19,10 @@ public class Shop {
         customers.add(new Customer("004", 2670));
         customers.add(new GoldenCustomer("005", 8700));
 
-        customers.get(0).print();
+        //customers.get(0).print();
         //#1
         for (int i = 0; i < 5; i++) {
-            customers.get(i).print();
+            //customers.get(i).print();
         }
         System.out.println();
         //#2
