@@ -15,7 +15,7 @@ public class Tester {
         Station departure;
         departure = Station.TAIPEI;
         int choice1 = Integer.parseInt(scanner.next());
-        while (choice1 != (1 | 2 | 3)){
+        while ((choice1 != 1) && (choice1 != 2) && (choice1 != 3)){
             System.out.println("Error");
             choice1 = Integer.parseInt(scanner.next());
         }
@@ -32,8 +32,6 @@ public class Tester {
                 System.out.println("Departure : Kaohsiung");
                 departure = Station.KAOHSIUNG;
                 break;
-            default:
-                System.out.println("Error");
         }
 
         System.out.println();
@@ -42,7 +40,7 @@ public class Tester {
         Station arrival;
         arrival = Station.KAOHSIUNG;
         int choice2 = Integer.parseInt(scanner.next());
-        while (choice2 != (1 | 2 | 3)){
+        while ((choice2 != 1) && (choice2 != 2) && (choice2 != 3)){
             System.out.println("Error");
             choice2 = Integer.parseInt(scanner.next());
         }
@@ -59,9 +57,6 @@ public class Tester {
                 System.out.println("Arrival : Kaohsiung");
                 arrival = Station.KAOHSIUNG;
                 break;
-            default:
-                System.out.println("ERROR");
-
         }
 
         Ticket ticket1 = new Ticket(departure, arrival);
