@@ -15,6 +15,10 @@ public class Tester {
         Station departure;
         departure = Station.TAIPEI;
         int choice1 = Integer.parseInt(scanner.next());
+        while (choice1 != (1 | 2 | 3)){
+            System.out.println("Error");
+            choice1 = Integer.parseInt(scanner.next());
+        }
         switch (choice1){
             case 1:
                 System.out.println("Departure : Taipei");
@@ -38,6 +42,10 @@ public class Tester {
         Station arrival;
         arrival = Station.KAOHSIUNG;
         int choice2 = Integer.parseInt(scanner.next());
+        while (choice2 != (1 | 2 | 3)){
+            System.out.println("Error");
+            choice2 = Integer.parseInt(scanner.next());
+        }
         switch (choice2){
             case 1:
                 System.out.println("Arrival : Taipei");
