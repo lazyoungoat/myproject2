@@ -58,14 +58,11 @@ public class Tester {
                 arrival = Station.KAOHSIUNG;
                 break;
         }
-
+        System.out.println();
         Ticket ticket1 = new Ticket(departure, arrival);
 
-        System.out.println("Ticket price is " + ticket1.price);
 
-
-
-
+        System.out.println("Your ticket is " + ticket1.price + " dollar.");
 
 
 
