@@ -12,16 +12,21 @@ public class Tester {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Departure station (1.Taipei 2.Taichung 3.Kaohsiung): ");
 
+        Station departure;
+        departure = Station.TAIPEI;
         int choice1 = Integer.parseInt(scanner.next());
         switch (choice1){
             case 1:
                 System.out.println("Departure : Taipei");
+                departure = Station.TAIPEI;
                 break;
             case 2:
                 System.out.println("Departure : Taichung");
+                departure = Station.TAICHUNG;
                 break;
             case 3:
                 System.out.println("Departure : Kaohsiung");
+                departure = Station.KAOHSIUNG;
                 break;
             default:
                 System.out.println("Error");
@@ -29,22 +34,33 @@ public class Tester {
 
         System.out.println();
 
-        int choice2 = Integer.parseInt(scanner.next());
         System.out.println("Arrival station (1.Taipei 2.Taichung 3.Kaohsiung): ");
-        choice2 = Integer.parseInt(scanner.next());
+        Station arrival;
+        arrival = Station.KAOHSIUNG;
+        int choice2 = Integer.parseInt(scanner.next());
         switch (choice2){
             case 1:
                 System.out.println("Arrival : Taipei");
+                arrival = Station.TAIPEI;
                 break;
             case 2:
                 System.out.println("Arrival : Taichung");
+                arrival = Station.TAICHUNG;
                 break;
             case 3:
                 System.out.println("Arrival : Kaohsiung");
+                arrival = Station.KAOHSIUNG;
                 break;
             default:
                 System.out.println("ERROR");
+
         }
+
+        Ticket ticket1 = new Ticket(departure, arrival);
+
+        System.out.println("Ticket price is " + ticket1.price);
+
+
 
 
 
