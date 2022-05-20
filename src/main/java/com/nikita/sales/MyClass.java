@@ -8,4 +8,6 @@ public class MyClass implements MyInterface {
     public int max(int a, int b) {
         return 2;
     }
+
+
 }
